@@ -19,7 +19,7 @@ meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/)
 1) `meKMeans_example_notebook.ipynb`: User demonstration notebook with examples for using meK-Means to cluster single-cell data.
    
 2) **analysis_notebooks**
-  All analysis notebooks from which the paper figures were generated.
+  *All analysis notebooks from which the paper figures were generated.*
   
     * `standard_cluster_pipelines.ipynb`: Notebook for demonstating standard clustering workflows on the germ cell dataset (Mayère et al. 2021).
     * `K3_simulation_meKMeans.ipynb`: Notebook for simulating and clustering datasets with 3 clusters.
