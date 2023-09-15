@@ -1,4 +1,4 @@
-# meK-Means: Biophysically Interpretable Inference of Cell Types from Multimodal Sequencing Data
+# meK-Means: Biophysically Motivated and Interpretable Inference of Cell Types from Multimodal Sequencing Data
 
 Notebooks for reproducing all figures and analysis of simulated and single-cell datasets for the meK-Means paper.
 
