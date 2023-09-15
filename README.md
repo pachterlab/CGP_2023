@@ -1,14 +1,14 @@
 # meK-Means: Biophysically Interpretable Inference of Cell Types from Multimodal Sequencing Data
 
-Notebooks for reproducing all figures and analysis of simulated and single-cell datasets for the meK-Means (mechanistic K-Means) paper .
+Notebooks for reproducing all figures and analysis of simulated and single-cell datasets for the meK-Means paper.
 
 ## Getting Started
 
 The [`meKMeans_example_notebook.ipynb`](https://github.com/tarachari3/CGP_2023/blob/main/meKMeans_example_notebook.ipynb) is an example notebook to demonstrate download and usage of meK-Means.
 
-It can be run from Google Colab, with the colab link included at the top of the notebook. Just click on the [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com) symbol.
+It can be run from Google Colab, with the Colab link included at the top of the notebook. Just click on the [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com) symbol.
 
-An intro to using Colab can be found [here](https://colab.research.google.com). Briefly, run each code cell by selecting the cell and executing Command/Ctrl+Enter. Code cells can be edited by simply clicking on the cell to start typing.
+An introduction to using Google Colab can be found [here](https://colab.research.google.com). Briefly, run each code cell by selecting the cell and executing Command/Ctrl+Enter. Code cells can be edited by simply clicking on the cell to start typing.
 
 ```
 #To install meK-Means
@@ -27,7 +27,7 @@ All saved/processed data used for analysis can be found on [CaltechData](https:/
 meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/) package for single-cell, CME-based inference.
 
 ## Repo Directory Contents
-1) `meKMeans_example_notebook.ipynb`: User demonstration notebook with examples for using meK-Means to cluster single-cell data.
+1) `meKMeans_example_notebook.ipynb`: User demonstration notebook with examples for using meK-Means to cluster single-cell RNA-seq data.
    
 2) **analysis_notebooks**
   *All analysis notebooks from which the paper figures were generated.*
@@ -39,7 +39,7 @@ meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/)
     * `10x_pbmcs_meKMeans.ipynb`: Notebook for clustering 10x Genomics 10k Human PBMC data.
 
 3) **analysis_output** 
-    * Saved result files (clustering results) from analysis notebooks
+    * Saved result files (clustering results) from analysis notebooks.
   
 4) **scripts** 
     * Python script to create loom file for germ cell dataset and extract metadata.
