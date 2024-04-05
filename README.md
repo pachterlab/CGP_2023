@@ -22,7 +22,7 @@ See the [`get_data_example_notebook.ipynb`](https://github.com/tarachari3/CGP_20
 </div>
 
 
-Notebooks are run on Google Colab, with the Colab link included at the top of the notebook. Just click on the [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com) symbol.
+For notebooks that run on Google Colab, you will see the Colab link included at the top of the notebook. Just click on the [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com) symbol.
 
 An introduction to using Google Colab can be found [here](https://colab.research.google.com). Briefly, run each code cell by selecting the cell and executing Command/Ctrl+Enter.
 
