@@ -1,0 +1,8 @@
+Dataset,Transcrip,Clusters,Cu,Lam,GTF
+allen_b08,/home/tchari/perturbCME/notebooks/gg_200524_mouse_genome_polyA_cum_1,10,-6.777777777777778,-1.25,/home/ggorin/ref/refdata-gex-mm10-2020-A/genes/genes.gtf
+allen_b02h01a02,/home/tchari/perturbCME/notebooks/gg_200524_mouse_genome_polyA_cum_1,11,-6.222222222222222,-1.25,/home/ggorin/ref/refdata-gex-mm10-2020-A/genes/genes.gtf
+cl3,/home/tchari/perturbCME/notebooks/gg_200525_genome_polyA_cum_3,3,-6.777777777777778,-0.6999999999999997,/home/ggorin/ref/refdata-gex-GRCh38-2020-A/genes/genes.gtf
+cl5,/home/tchari/perturbCME/notebooks/gg_200525_genome_polyA_cum_3,5,-7.888888888888889,-1.25,/home/ggorin/ref/refdata-gex-GRCh38-2020-A/genes/genes.gtf
+brca1,/home/tchari/perturbCME/notebooks/gg_200524_mouse_genome_polyA_cum_1,-1,-6.777777777777778,-0.6999999999999997,/home/ggorin/ref/refdata-gex-mm10-2020-A/genes/genes.gtf
+pbmc,/home/tchari/perturbCME/notebooks/gg_200525_genome_polyA_cum_3,-1,-5.666666666666666,-0.6999999999999997,/home/ggorin/ref/refdata-gex-GRCh38-2020-A/genes/genes.gtf
+e11e13,/home/tchari/perturbCME/notebooks/gg_200524_mouse_genome_polyA_cum_1,2,-6.777777777777778,-1.25,/home/ggorin/ref/refdata-gex-mm10-2020-A/genes/genes.gtf
