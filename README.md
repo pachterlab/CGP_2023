@@ -45,26 +45,33 @@ meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/)
 2) [`get_data_example_notebook.ipynb`](https://github.com/tarachari3/CGP_2023/blob/main/get_data_example_notebook.ipynb): Tutorial notebook of how to obtain U and S counts from single-cell RNA-seq FASTQs.
    
 3) **analysis_notebooks**
-  *All analysis notebooks from which the paper figures were generated.*
-  
-    * `sim_benchmark_data_gen`: Folder for generation of simulation data and all preprocessing of biological datasets into loom files.
+  *All analysis notebooks from which the paper figures were generated, and each can be run standalone*
+
+   Main Figure Notebooks :
     * `Fig1_standard.ipynb`: Notebook for generating Fig. 1 standard clustering plots.
     * `Figs_2_3_plots.ipynb`: Notebook for generating Fig. 2 and 3 benchmark results plots.
     * `Fig4_explorData.ipynb`: Notebook for generating Fig. 4 exploratory analysis plots.
-    * `sim_benchmark_meK_Leiden_KMeans.ipynb`: Notebook for running clustering of meK-Means, Leiden, and K-Means on all data.
-    * `sim_benchmark_WNN.ipynb`: Notebook for running Seurat WNN on all data.
-    * `sim_benchmark_scMDC_scVI.ipynb`: Notebook for running scVI and scMDC on all data (uses Colab GPU).
-    * `Supp_dropout.ipynb`: Notebook for analysis of simulated dropout data.
+
+   Preprocessing Notebooks listed in order of operation, to generate U/S counts and simulations:
+   1. `sim_benchmark_data_gen/alldataset_preprocess.ipynb`: Processes fastqs for all datasets used, into U/S counts.
+   2. `sim_benchmark_data_gen/gen_benchmark_data.ipynb`: Processes `alldataset_preprocess` to select genes and save data for benchmarking. 
+   3. `sim_benchmark_data_gen/gen_sims.ipynb`: Generates simulated, clustered data based on biophysical model of transcription.
+
+   Other Analysis Notebooks:
+    * `sim_benchmark_meK_Leiden_KMeans_GLUE`: Notebook for running meK-Means, Leiden, K-Means, GLUE on all benchmark and simulated data.
+    * `sim_benchmark_WNN.ipynb`: Notebook for running Seurat WNN and MOFA+ on all benchmark and simulated data.
+    * `sim_benchmark_scMDC_scVI.ipynb`: Notebook for running scVI and scMDC on all benchmark and simulated data (uses Colab GPU).
+    * `Supp_dropout.ipynb`: Notebook for analysis of meK-Means with simulated dropout data.
     * `Supp_timing.ipynb`: Notebook for runtime benchmarking of meK-Means.
 
 
-4) **analysis_output** 
+5) **analysis_output** 
     * Saved result files (clustering method results) from analysis notebooks.
   
-5) **scripts** 
+6) **scripts** 
     * Python script to extract germ cell dataset metadata and scMixology data metadata.
 
-6) **env**
+7) **env**
     * Conda environment (yml) for Linux.
 
 
