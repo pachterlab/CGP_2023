@@ -45,7 +45,7 @@ meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/)
 2) [`get_data_example_notebook.ipynb`](https://github.com/tarachari3/CGP_2023/blob/main/get_data_example_notebook.ipynb): Tutorial notebook of how to obtain U and S counts from single-cell RNA-seq FASTQs.
    
 3) **analysis_notebooks**
-  *All analysis notebooks from which the paper figures were generated, and each can be run standalone*
+  *All analysis notebooks from which the paper figures were generated. Each can be run standalone.*
 
    Main Figure Notebooks :
     * `Fig1_standard.ipynb`: Notebook for generating Fig. 1 standard clustering plots.
@@ -72,7 +72,8 @@ meK-Means utilizes the [Monod](https://monod-examples.readthedocs.io/en/latest/)
     * Python script to extract germ cell dataset metadata and scMixology data metadata.
 
 7) **env**
-    * Conda environment (yml) for Linux.
+    * Python Conda environment (py39.yml) for Linux.
+    * R Conda environment (r_Seurat.yml) for Linux.
 
 
 
