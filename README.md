@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/684187842.svg)](https://zenodo.org/doi/10.5281/zenodo.13253143)
+
 # meK-Means: Biophysically Motivated and Interpretable Inference of Cell Types from Multimodal Sequencing Data
 
 Notebooks for reproducing all figures and analysis of simulated and single-cell datasets for the [meK-Means](https://www.biorxiv.org/content/10.1101/2023.09.17.558131v2.full.pdf) paper. All saved/processed data used for analysis can be found on [CaltechData](https://data.caltech.edu/search?q=meK-Means%20AND%20tara%20chari&f=resource_type%3Adataset&l=list&p=1&s=10&sort=bestmatch). Figure created with BioRender.com.
